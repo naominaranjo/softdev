@@ -15,6 +15,8 @@ coll = [0,1,1,2,3,5,8]
 def test_tmplt():
     return render_template( 'model_tmplt.html', foo="fooooo", collection=coll) #Q2: What is the significance of each argument?
 
+    
+
 if __name__ == "__main__":
     app.debug = True
     app.run()
